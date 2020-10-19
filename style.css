@@ -1,0 +1,43 @@
+
+    .container { 
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        min-height: 100vh;    
+    }
+    body {
+        background: rgb(219, 226, 230);
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h3 { 
+        background: none; 
+        color: rgb(36, 35, 35);
+        font-family:'Lucida Sans', 'Lucida Sans Unicode', 'sans-serif';
+        font-size: 16px;
+        
+    }
+    form    { 
+        background:  rgb(212, 141, 212);
+        color: rgb(15, 15, 15);
+        border-radius: 20px;
+        box-shadow: 10px 15px 50px 0px rgba(15, 14, 14, 0.75);
+        padding: 20px;
+        margin: 0;
+        min-width: 250px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-self: center;
+        
+    } 
+#submit {
+    background-color: rgb(31, 123, 177);
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
