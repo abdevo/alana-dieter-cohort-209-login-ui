@@ -1,1 +1,67 @@
-Hello
+<!DOCTYPE html>
+<html>
+    <title>My Page!</title>
+    <style>
+        .container{
+            background:  rgb(212, 141, 212);
+            color: rgb(15, 15, 15);
+            border-radius: 20px;
+            box-shadow: 10px 15px 50px 0px rgba(15, 14, 14, 0.75);
+            padding: 20px;
+            margin: auto;
+            width: 230px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        body {
+            background: rgb(219, 226, 230);
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h3 { 
+            background: none; 
+            color: rgb(36, 35, 35);
+            font-family:'Lucida Sans', 'Lucida Sans Unicode', 'sans-serif';
+            font-size: 16px;
+            
+        }
+        form    {
+            background:  rgb(212, 141, 212);
+            color: rgb(15, 15, 15);
+            border-radius: 20px;
+            box-shadow: 10px 15px 50px 0px rgba(15, 14, 14, 0.75);
+            padding: 20px;
+            margin: auto;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        } 
+    #submit {
+        background-color: rgb(31, 123, 177);
+        border: none;
+        border-radius: 20px;
+        width: 200px;
+        height: 30px;
+        color: white;
+    }
+    </style>
+<head>
+</head>
+    <body>
+
+    <div class="container">
+            <form action="welcome.php" method="POST">
+                <h4>Sign in</h4><br>
+
+                <input type="email" name="email" id="email"><br>
+                <input type="password" name="password" id="password"><br><br>
+                <input type="submit" name="submit" id="submit">
+            </form>
+    </div>   
+        
+
+    </body>
+</html>
